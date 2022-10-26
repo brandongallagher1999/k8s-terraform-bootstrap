@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" height="136" src="https://blog.jcorioland.io/images/terraform-microsoft-azure-introduction/terraform-azure.png" />
+  <img width="600" height="250" src="https://blog.jcorioland.io/images/terraform-microsoft-azure-introduction/terraform-azure.png" />
 </p>
 
 <h1 align="center">👋 Terraform, Helm, Azure AD Boilerplate</h1>
