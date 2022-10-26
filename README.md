@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://blog.jcorioland.io/images/terraform-microsoft-azure-introduction/terraform-azure.png" />
+  <img width="600" height="136" src="https://blog.jcorioland.io/images/terraform-microsoft-azure-introduction/terraform-azure.png" />
 </p>
 
 <h1 align="center">👋 Terraform, Helm, Azure AD Boilerplate</h1>
@@ -18,6 +18,9 @@ This boilerplate providers you with an Kubernetes Cluster, NGINX Ingress Control
 Have you ever started up a new project and found yourself wasting hours of your time trying to bootstrap a basic K8s Cluster?
 
 This repo contains all the essentials you need for starting a simple project with simple permissions. Straight to the point.
+
+## Prerequisites
+- [Terraform](https://www.terraform.io/)
 
 ## ✅ Services Available
 - [Azure Kubernetes Services](https://learn.microsoft.com/en-us/azure/aks/)
