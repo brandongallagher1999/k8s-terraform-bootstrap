@@ -6,9 +6,10 @@
 
 ## What is this?
 
-This boilerplate providers you with an Kubernetes Cluster, NGINX Ingress Controler, SRE AAD Group, and pre-made Helm boilerplate.
+This boilerplate providers you with an autoscaling Kubernetes Cluster, NGINX Ingress Controler, SRE & Developer Azure AD Group, and pre-made Helm boilerplate.
 
 ## 💻 Technologies
+
 - ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
 - ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 - ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
@@ -17,12 +18,14 @@ This boilerplate providers you with an Kubernetes Cluster, NGINX Ingress Control
 
 Have you ever started up a new project and found yourself wasting hours of your time trying to bootstrap a basic K8s Cluster?
 
-This repo contains all the essentials you need for starting a simple project with simple permissions. Straight to the point.
+This repo contains all the essentials you need for starting a Kubernetes project with simple permissions. Straight to the point.
 
 ## Prerequisites
+
 - [Terraform](https://www.terraform.io/)
 
 ## ✅ Services Available
+
 - [Azure Kubernetes Services](https://learn.microsoft.com/en-us/azure/aks/)
 - [Azure Public IP](https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-addresses)
 - [NGINX Ingress Controller](https://github.com/kubernetes/ingress-nginx)
@@ -42,16 +45,19 @@ Since the Kubernetes & Helm Terraform provider is reliant upon a cluster already
 #1. Deploy the cluster.
 
 cd ./infrastructure/live/cluster
+terraform init
 terraform plan
 terraform apply
 
 #2. Deploy the Nginx Ingress Helm chart
 cd ./infrastructure/live/helm
+terraform init
 terraform plan
 terraform apply
 
 #3. Deploy the SRE AAD Group & K8s RBAC Binding
 cd ./infrastructure/live/ad
+terraform init
 terraform plan
 terraform apply
 ```
