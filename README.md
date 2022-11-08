@@ -23,6 +23,7 @@ This repo contains all the essentials you need for starting a Kubernetes project
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/)
+- [Azure Subscription](https://azure.microsoft.com/en-ca/)
 
 ## ✅ Services Available
 
