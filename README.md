@@ -40,7 +40,7 @@ Each folder contains a `variables.tf` with a description for each relevant varia
 
 ## 🚀Deployment
 
-Since the Kubernetes & Helm Terraform provider is reliant upon a cluster already being up and running, it is not possible to couple each component of the Cluster in a single Terraform folder. This is why it's essential to deploy certain resources in order.
+Since the Kubernetes & Helm Terraform provider is reliant upon a cluster already being up and running, it is not possible to couple each component of the Cluster in a single Terraform module. This is why it's essential to deploy certain resources in order.
 
 ```sh
 #1. Deploy the cluster.
